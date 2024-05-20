@@ -1,0 +1,168 @@
+#background-box{
+    width: 96vw;
+    height: 92vh;
+    background-color:#b7bb93;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.container{
+    padding: 20px 20px;
+    position: relative;
+    position:fixed
+}
+
+#white-blur{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 11%;
+}
+
+#logo{
+    margin-top: -40px;
+    position: absolute;
+    width: 300px;
+    margin-left: 38%;
+}
+
+#top-bar{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -34px;
+    width: 88px;
+}
+
+#napkin-left{
+    position: absolute;
+    /* width: 250px; */
+    margin-top: 6%;
+    float: left;
+    position: fixed;
+    margin-left: -2%;
+}
+
+#napkin-right{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 82%;
+    position: fixed;
+}
+
+#text-about{
+    position: absolute;
+    color: #003911;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    margin-top: 19%;
+    margin-left: 35%;
+}
+
+#chicken-bowl{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: -4%;
+    width: 1360px;
+    /* z-index: 1; */
+}
+
+#menu-list{
+    position: absolute;
+    text-align: center;
+    color: #003911;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-top: 93%;
+    margin-left: 33%;
+}
+
+#chicken-bowl-2{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: -4%;
+    width: 1360px;
+}
+
+#last-word {
+    position: absolute;
+    text-align: center;
+    color: #003911;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-top: 189%;
+    margin-left: 32%;
+}
+
+#contact-section {
+    position: absolute;
+    margin-top: 198%;
+    margin-left: 34%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    z-index: 50;
+    
+}
+
+#form-inputs {
+    width: 10px;
+}
+
+form input,
+form textarea {
+    width: 350px;
+    height: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: .5px;
+    border-color:#003911;
+    color:#003911;
+    font-size: 15px;
+    padding-bottom: 3px;
+    background-color: transparent;
+}
+
+.text-area{
+    border-bottom-color:#003911;
+}
+
+
+.button {
+    width: 80px;
+    height: 30px;
+    background-color:#003911;
+    color:#b7bb93;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+.button:hover{
+    color: #fff;
+}
+
+#footer{
+    position: absolute;
+    margin-top: 220%;
+    margin-left: 17%;
+    margin-bottom: -2000px;
+}
+
+#bottom-bar{
+    position: absolute;
+    margin-top: 234%;
+    margin-left: 43%;
+    margin-bottom: -40px;
+}
+
+#footer-text{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    color: #003911;
+    text-align: center;
+    margin-top: 231%;
+    margin-left: 39%;
+    font-size: 14px;
+    z-index: 1;
+}
